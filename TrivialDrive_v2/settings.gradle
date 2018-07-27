@@ -1,1 +1,1 @@
-include ':base-feature', ':wear', ':tv', ':shared-module', ':mobile', ':instant'
+include ':base-feature', ':shared-module', ':mobile'

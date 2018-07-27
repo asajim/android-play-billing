@@ -16,7 +16,7 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     android:targetSandboxVersion="2"
-    package="com.example.billingsample">
+    package="com.asajim.billingsample">
 
     <uses-permission android:name="android.permission.INTERNET"/>
 

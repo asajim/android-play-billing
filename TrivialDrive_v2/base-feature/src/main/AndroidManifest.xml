@@ -17,7 +17,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:targetSandboxVersion="2"
-    package="com.example.billingsample">
+    package="com.asajim.billing">
 
     <application
         android:allowBackup="true"
@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon">
-        <activity android:name="com.example.billingsample.TrivialDriveActivity">
+        <activity android:name="com.asajim.billing.TrivialDriveActivity">
             <meta-data
                 android:name="default-url"
                 android:value="https://example.com" />

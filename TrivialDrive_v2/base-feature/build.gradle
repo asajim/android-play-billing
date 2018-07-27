@@ -29,7 +29,6 @@ android {
     baseFeature = true
 
     compileSdkVersion Integer.valueOf(project.TARGET_SDK_VERSION)
-    buildToolsVersion project.TOOLS_VERSION
 
     defaultConfig {
         // Tests with Google Play Billing APIs must use production package name.
@@ -54,13 +53,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    buildToolsVersion '27.0.3'
 }
 
 dependencies {
     implementation project(':shared-module')
 
     application project(':mobile')
-    wearApp project(':wear')
 
     androidTestApi('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
